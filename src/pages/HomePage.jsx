@@ -8,7 +8,6 @@ function HomePage() {
     return (
         <>
             <ul>
-
                 <li><Link to={"/beers"}>
                     <img src={beersImg} alt="Beers" />
                     <h2>All Beers</h2>

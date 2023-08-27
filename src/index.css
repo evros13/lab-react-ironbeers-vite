@@ -17,6 +17,15 @@ form {
   margin-bottom: 50px;
 }
 
-.btn-round {
-  margin: 20px;
+button {
+  background-color: white;
+  color: rgb(27, 144, 247);
+  border: 1px solid rgb(27, 144, 247);
+  border-radius: 12px;
+  padding: 8px 10px;
+}
+
+button:hover {
+  background-color: rgb(27, 144, 247);
+  color: white;
 }

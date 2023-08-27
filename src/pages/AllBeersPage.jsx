@@ -21,7 +21,6 @@ function AllBeersPage() {
         return <p>Loading</p>
     }
 
-
     return (
         <>
             {beers.map((beer) => {
