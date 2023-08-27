@@ -39,7 +39,7 @@ function AddBeerPage() {
                 return res.json();
             })
             .then((newBeer) => {
-                console.log(newBeer);
+                console.log(newBeer); // SUCCESSFULLY ADDING A NEW BEER
                 setName("")
                 setTagline("")
                 setDescription("")
@@ -52,9 +52,6 @@ function AddBeerPage() {
             })
             .catch((error) => console.log(error));
     }
-
-// IT SENDS ALL THE INFORMATION TO THE DATABASE (THE CONSOLE LOGS ALL THE FIELDS), BUT ONLY THE NAME, THE TAGLINE AND THE CREATED BY FIELDS ARE SHOWN ON THE LIST
-// I CAN SEE OTHER PEOPLE'S TESTS AND THEY ALL SHOW THE SAME ISSUE
 
     return (
         <>
