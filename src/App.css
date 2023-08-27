@@ -14,3 +14,32 @@ ul img {
 li {
     margin: 30px 20px;
 }
+
+nav {
+    background-color: rgba(62, 174, 230, 0.863);
+    padding: 15px;
+}
+
+nav img {
+    height: 40px;
+}
+
+.beerContainer {
+    margin: 40px 0 60px 40px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(49, 49, 49, 0.555);
+    padding-bottom: 50px;
+}
+
+.beerContainer img {
+    width: 40px;
+}
+
+.beerInfo {
+    margin-left: 20px;
+}
+
+.beerLink {
+    color: black;
+}
